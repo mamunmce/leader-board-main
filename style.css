@@ -291,3 +291,43 @@ hr{
 }
 
 /* end only phone  */
+
+/* start ipad  */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    
+    .parent-div{
+        width: 100%;
+    }
+
+    .all-players{
+       
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .all-blog{
+        grid-template-columns: 1fr;
+    }
+
+    .all-rap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: flex-start;
+    }
+
+    .lat-course{
+        margin: 15px;
+         
+    }
+
+    .top-course h3{
+        color: #562EFF;
+        margin-bottom: 45px;
+        font-size: 25px;
+    }
+
+}
+
+/* end ipad  */
