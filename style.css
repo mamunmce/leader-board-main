@@ -21,6 +21,10 @@ body{
     width:40px;
 }
 
+.child-top-player h4{
+    margin-left: 16px;
+}
+
 .logo-div{
     display:flex;
     float:left;
@@ -77,15 +81,19 @@ body{
     padding: 12px 0px;
 }
 
+.chairld-blog{
+    margin-bottom: 26px;
+}
+
 .all-players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 20px;
 }
 
 .child-top-player{
     display: flex;
     align-items: center;
+    margin-bottom: 29px;
 }
 
 .child-top-player img{
@@ -199,3 +207,14 @@ hr{
 }
 
 /* end course  */
+/* start  footer */
+.food-bot{
+    background:#3100ff;
+}
+
+.food-div{
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+}
+/* end footer  */
