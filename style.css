@@ -101,6 +101,10 @@ hr{
 .top-blog{
     margin: 30px 0px;
 }
+.all-rap{
+    display: flex;
+    justify-content: space-between;
+}
 
 .all-blog{
     display: grid;
@@ -139,3 +143,59 @@ hr{
     color: #9F9F9F;
 }
 /* end top blog */
+
+/* start course  */
+
+.cours-info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+.lat-course{
+    width: 245px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px 0px #b6b6b6;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.lat-course img{
+    width:224px;
+}
+
+.lat-course h4{
+    font-size: 20px;
+    margin:20px 0px 10px 0px;
+}
+
+.name-cos{
+    font-size: 14px;
+    color: #ED6B4F;
+}
+
+.ster-yelo{
+    color: #FFC014;
+    font-size: 10px;
+}
+
+.spasil{
+    color:#AEAEAE ;
+    font-size: 10px;
+}
+
+.time{
+    color:#A2A2A2;
+    font-size: 12px;
+}
+
+.colock{
+    color:#ED6B4F ;
+    margin-right: 20px;
+    font-size: 14px;
+    background: #FFE4E8;
+    border-radius: 15px;
+    padding:3px 5px;
+}
+
+/* end course  */
