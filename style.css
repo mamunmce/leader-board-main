@@ -218,3 +218,76 @@ hr{
     color: white;
 }
 /* end footer  */
+
+/* media queries  */
+/* start only phone  */
+
+@media only screen and (max-width:688px){
+    
+    .parent-div{
+        width: 100%;
+    }
+
+    .logo-div{
+        width:10%
+    }
+
+    .child-div ul li a{
+        margin-right:10px;
+    }
+
+    .all-players{
+       
+        grid-template-columns: 1fr;
+    }
+
+    .all-blog{
+        grid-template-columns: 1fr;
+    }
+
+    .all-rap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lat-course{
+        margin: 15px;
+    }
+
+    .top-text{
+        text-align: center;
+    }
+
+    .child-top-player{
+        margin:0px 50px;
+        margin-bottom: 20px;
+    }
+    .chairld-blog{
+        display: grid;
+        margin: auto;
+    }
+
+    .top-course h3{
+        color: #562EFF;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 45px;
+        font-size: 25px;
+    }
+
+    .blog-thamble img{
+        margin-top: 35px;
+        margin-bottom: 3px;
+    }
+
+    .blog-info p{
+        margin:5px;  
+    }
+
+    .blog-info h4{
+        margin: 0px;
+    }
+}
+
+/* end only phone  */
