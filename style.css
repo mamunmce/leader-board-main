@@ -62,7 +62,7 @@ body{
 }
 /* end header  */
 
-/* start main contan  */
+/* start top player  */
 
 .top-section{
     background: white;
@@ -80,6 +80,7 @@ body{
 .all-players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
 }
 
 .child-top-player{
@@ -91,4 +92,50 @@ body{
     width:56px;
 }
 
+hr{
+    border: 0.5px solid #D1D1D1;
+}
 
+/* end top player  */
+/* start top blog  */
+.top-blog{
+    margin: 30px 0px;
+}
+
+.all-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.chairld-blog{
+    display: flex;
+}
+
+.blog-thamble img{
+    width:177px;
+}
+
+.blog-info{
+    width: 164px;
+}
+
+.blog-info h4{
+    margin:0px 0px 0px 16px ;
+}
+
+.blog-info p{
+    margin:0px 0px 0px 16px ;
+    margin-top: 22px;;
+}
+
+.blog-info p a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #562EFF;
+}
+
+.blog-info p span{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+/* end top blog */
