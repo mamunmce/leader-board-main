@@ -6,6 +6,7 @@
 body{
     margin:0px;
     font-family: 'Poppins', sans-serif;
+    background:  #E5E5E5;;
 }
 
 .top-header{
@@ -16,7 +17,7 @@ body{
     width:870px;
     margin: auto;
 }
-.parent-div img{
+.parent-div .logo-div img{
     width:40px;
 }
 
@@ -59,3 +60,35 @@ body{
     list-style:none;
     display:flex;
 }
+/* end header  */
+
+/* start main contan  */
+
+.top-section{
+    background: white;
+    margin-top: 57px;
+    padding: 0px 30px;
+}
+
+.top-text{
+    color:#562EFF;
+    font-size: 24px;
+    font-weight:500;
+    padding: 12px 0px;
+}
+
+.all-players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.child-top-player{
+    display: flex;
+    align-items: center;
+}
+
+.child-top-player img{
+    width:56px;
+}
+
+
